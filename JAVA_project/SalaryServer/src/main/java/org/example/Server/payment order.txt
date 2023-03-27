@@ -1,0 +1,10 @@
+ID = 14
+Name = Alexey
+Surname = Ahymanski	
+Role = HR
+Salary = 215
+Taxes = 35
+DaysWorked = 20
+
+
+

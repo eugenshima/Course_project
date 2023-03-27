@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.salaryclient.UserListController">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <AnchorPane layoutX="-4.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="410.0" prefWidth="700.0" style="-fx-background-color: #e5eefc;">
+               <children>
+                  <AnchorPane layoutX="-7.0" layoutY="-17.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="427.0" prefWidth="715.0" style="-fx-background-color: CC99FF;">
+                     <children>
+                        <AnchorPane prefHeight="133.0" prefWidth="715.0" style="-fx-background-color: #9966CC;">
+                           <children>
+                              <Label layoutX="233.0" layoutY="36.0" prefHeight="61.0" prefWidth="250.0" text="User's Lists" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="Bank Gothic Medium BT" size="35.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <Button fx:id="ExitButton" layoutX="308.0" layoutY="310.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="100.0" style="-fx-background-color: #CC99FF; -fx-border-color: #9966FF; -fx-border-width: 3px; -fx-border-radius: 10px;" text="Exit" textAlignment="CENTER">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                        <Button fx:id="StaffingOverviewButton" layoutX="206.0" layoutY="156.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="143.0" style="-fx-background-color: #CC99FF; -fx-border-color: #9966FF; -fx-border-width: 3px; -fx-border-radius: 15px;" text="Staffing overview">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                        <Button fx:id="RCButton" layoutX="206.0" layoutY="204.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="143.0" style="-fx-background-color: #CC99FF; -fx-border-color: #9966FF; -fx-border-width: 3px; -fx-border-radius: 15px;" text="Report Card Overview">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                        <Button fx:id="UsersButton" layoutX="366.0" layoutY="156.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="143.0" style="-fx-background-color: #CC99FF; -fx-border-color: #9966FF; -fx-border-width: 3px; -fx-border-radius: 15px;" text="Users">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                        <Button fx:id="FSalaryButton" layoutX="366.0" layoutY="204.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="143.0" style="-fx-background-color: #CC99FF; -fx-border-color: #9966FF; -fx-border-width: 3px; -fx-border-radius: 15px;" text="Final Salary">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                        <Button fx:id="AllInformationButton" layoutX="290" layoutY="251.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="143.0" style="-fx-background-color: #CC99FF; -fx-border-color: #9966FF; -fx-border-width: 3px; -fx-border-radius: 15px;" text="All Information">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

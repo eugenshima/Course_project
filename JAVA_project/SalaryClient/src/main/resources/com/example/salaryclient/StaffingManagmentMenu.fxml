@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: CC99FF;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.salaryclient.StaffingManagmentMenuController">
+   <children>
+      <AnchorPane prefHeight="113.0" prefWidth="700.0" style="-fx-background-color: #9966CC;">
+         <children>
+            <Label layoutX="87.0" layoutY="26.0" prefHeight="61.0" prefWidth="527.0" text="Staffing Managment Menu" textAlignment="CENTER">
+               <font>
+                  <Font name="Bank Gothic Medium BT" size="35.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Button fx:id="DeleteButton" layoutX="292.0" layoutY="135.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="117.0" style="-fx-background-color: #CC99FF; -fx-border-color: #9966FF; -fx-border-width: 3px; -fx-border-radius: 15px;" text="Delete">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="UpdateButton" layoutX="292.0" layoutY="190.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="117.0" style="-fx-background-color: #CC99FF; -fx-border-color: #9966FF; -fx-border-width: 3px; -fx-border-radius: 15px;" text="Update">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="ExtButton" layoutX="292.0" layoutY="331.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="117.0" style="-fx-background-color: #CC99FF; -fx-border-color: #9966FF; -fx-border-width: 3px; -fx-border-radius: 15px;" text="Exit">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

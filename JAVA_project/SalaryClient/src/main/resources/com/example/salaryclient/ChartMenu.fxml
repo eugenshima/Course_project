@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.salaryclient.ChartMenuController">
+   <children>
+      <AnchorPane layoutX="-1.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="418.0" prefWidth="716.0" style="-fx-background-color: CC99FF;">
+         <children>
+            <AnchorPane prefHeight="113.0" prefWidth="716.0" style="-fx-background-color: #9966CC;">
+               <children>
+                  <Label layoutX="286.0" layoutY="26.0" prefHeight="61.0" prefWidth="145.0" text="Charts" textAlignment="CENTER">
+                     <font>
+                        <Font name="Bank Gothic Medium BT" size="35.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Button fx:id="RoleChart" layoutX="281.0" layoutY="144.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="138.0" style="-fx-background-color: #CC99FF; -fx-border-color: #9966FF; -fx-border-width: 3px; -fx-border-radius: 10px;" text="Role Chart" textAlignment="CENTER">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="SalaryChart" layoutX="281.0" layoutY="200.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="138.0" style="-fx-background-color: #CC99FF; -fx-border-color: #9966FF; -fx-border-width: 3px; -fx-border-radius: 10px;" text="Salary chart" textAlignment="CENTER">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="ExitButton" layoutX="281.0" layoutY="345.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="138.0" style="-fx-background-color: #CC99FF; -fx-border-color: #9966FF; -fx-border-width: 3px; -fx-border-radius: 10px;" text="Exit" textAlignment="CENTER">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
